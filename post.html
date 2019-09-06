@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+	<title>Post it!</title>
+	<link rel="stylesheet" type="text/css" href="post-style.css">
+</head>
+<body>
+
+	<div class="nav-bar">POST IT!</div>
+
+<!-- 	<div id="comments" align="left">
+		<h3>Comments</h3>
+		<label>Name</label>
+		<input type="text" id="name" placeholder="Name here">
+		<br>
+		<label>Comment</label>
+		<textarea placeholder="comment..."></textarea>
+		<br>
+
+		<button>Comment</button> -->
+
+		<div class="form-popup" id="myForm">
+			<form name="form">
+				<h2>New Post</h2>
+				<label><b>Title</b></label>
+				<input name="title" id="titleId" type="text" placeholder="Enter title for the post" required>
+
+				<br>
+
+				<label><b>Name of author</b></label>
+				<input name="author" id="authorId" type="text" placeholder="Enter your name" required>
+
+				<br>
+
+				<label><b>Content</b></label>
+				<textarea name="content" id="contentId" placeholder="Enter post" required></textarea>
+
+				<br>
+
+				<button class="button" onclick="getPost()">Submit</button>
+				<button class="button" onclick="closeForm()">Close</button>
+			</form>
+
+		</div>
+
+		<div><button class="open-button" id="openBtn" onclick="openForm()">+</button></div>
+
+		<div id="posts"></div>
+
+
+		<script src="post-script.js"></script>
+	</body>
+	</html>
