@@ -1,0 +1,154 @@
+ *{box-sizing: border-box;}
+
+ .nav-bar {
+ 	background: linear-gradient(to top left, #84CF6A, #16C0B0);
+ 	height: 100px;
+ 	margin-bottom: 15px;
+ 	vertical-align: middle;
+ 	text-align: center;
+ 	color: white;
+ 	word-spacing: 10px;
+ 	font-size: 80px;
+ }
+
+ .open-button {
+ 	cursor: pointer;
+ 	position: fixed;
+ 	bottom: 23px;
+ 	right: 28px;
+ 	width: 60px;
+ 	border-radius: 50%;
+ 	background-color: #4CAF50;
+ 	border: none;
+ 	color: white;
+ 	padding: 20px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	font-size: 16px;
+ 	margin: 4px 2px;
+ 	font-weight: bold;
+ }
+
+ .form-popup {
+ 	display: none;
+ 	position: fixed;
+ 	bottom: 0;
+ 	right: 15px;
+ 	border: 3px solid #f1f1f1;
+ 	z-index: 9;
+ 	width: 300px;
+ 	padding: 10px;
+ 	background-color: white;
+ }
+
+ .form-popup input{
+ 	width: 100%;
+ 	padding: 15px;
+ 	margin: 5px 0 22px 0;
+ 	border: none;
+ 	background: #f1f1f1;
+ }
+
+ .form-popup textarea{
+
+ 	width: 100%;
+ 	padding: 15px;
+ 	margin: 5px 0 22px 0;
+ 	border: none;
+ 	background: #f1f1f1;
+ 	height: 120px;
+ }
+
+ .button {
+ 	background-color: #4CAF50;
+ 	border: none;
+ 	color: white;
+ 	padding: 15px 32px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	font-size: 16px;
+ 	border-radius: 16px;
+ }
+
+ .post {
+ 	max-width: 100%;
+ 	margin: 15px;
+ 	box-shadow: 5px 5px #D2D2D2;
+ 	background-color: #84CF6A;
+ 	border: 1px solid #D2D2D2;
+ 	color: white;
+ 	overflow-y: scroll;
+ 	height: 250px;
+ 	border-radius: 20px;
+ 	padding: 20px;
+ }
+
+ .title {
+
+ 	background-color: #16C0B0;
+ 	vertical-align: middle;
+ 	text-align: center;
+ 	margin: 10px;
+ 	padding: 5px;
+ }
+
+ .author {
+ 	vertical-align: middle;
+ 	text-align: center;
+ 	margin: 10px;
+ }
+
+ .content {
+ 	max-width: 100%;
+ 	margin: 20px;
+ 	font-size: 18px;
+ }
+
+ .comment-box{
+ 	width: 90%;
+ 	padding: 10px;
+ 	background-color: white;
+ 	margin: 10px;
+ 	border: 2px solid #4CAF50;
+ 	border-radius: 15px;
+ }
+
+ .reply-box {
+ 	background-color: white;
+ 	border: 2px solid #4CAF50;
+ 	margin-left: 40px;
+ 	margin-right: 20px;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ 	border-radius: 10px;
+ 	padding: 5px;
+ 	width: 50%;
+ }
+
+ .comment-button {
+ 	background-color: #4CAF50;
+ 	border: 2px solid white;
+ 	padding: 10px;
+ 	color: white;
+ 	margin:10px;
+ 	border-radius: 10px;
+ }
+
+ .comment-text {
+
+ 	background-color: #4CAF50;
+ 	border: none;
+ 	padding: 10px;
+ 	margin: 10px;
+ 	border-radius: 10px;
+ }
+
+ .reply-text {
+ 	margin-left: 70px;
+ 	background-color: #4CAF50;
+ 	border: none;
+ 	padding: 10px;
+ 	border-radius: 10px;
+ }
